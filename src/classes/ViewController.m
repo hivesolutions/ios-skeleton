@@ -14,7 +14,7 @@
 // __version__   = 1.0.0
 // __revision__  = $LastChangedRevision$
 // __date__      = $LastChangedDate$
-// __copyright__ = Copyright (c) 2015 Hive Solutions, Lda.
+// __copyright__ = Copyright (c) 2008-2015 Hive Solutions, Lda.
 
 #import "ViewController.h"
 
