@@ -16,8 +16,9 @@
 // __date__      = $LastChangedDate$
 // __copyright__ = Copyright (c) 2008-2015 Hive Solutions, Lda.
 
-#import "Dependencies.h"
+// framework dependency includes
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
-
-@end
+// library dependency includes
+#import <Cameo/Cameo.h>

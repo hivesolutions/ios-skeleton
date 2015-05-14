@@ -16,6 +16,8 @@
 // __date__      = $LastChangedDate$
 // __copyright__ = Copyright (c) 2008-2015 Hive Solutions, Lda.
 
+#import "Dependencies.h"
+
 #import "ViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>

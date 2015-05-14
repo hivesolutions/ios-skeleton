@@ -17,6 +17,7 @@
 // __copyright__ = Copyright (c) 2008-2015 Hive Solutions, Lda.
 
 #import <UIKit/UIKit.h>
+
 #import "AppDelegate.h"
 
 int main(int argc, char * argv[]) {

@@ -29,6 +29,7 @@
 		C24838BD1B051B4200125E05 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C24838BE1B051B4200125E05 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C24838BF1B051B4200125E05 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C2520C6D1B051ECF00955E7B /* Dependencies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dependencies.h; sourceTree = "<group>"; };
 		D30A3D41E1D24B9F3A589F1E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +87,7 @@
 		C24838AA1B05192200125E05 /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				C2520C6D1B051ECF00955E7B /* Dependencies.h */,
 				C24838AB1B05192200125E05 /* AppDelegate.h */,
 				C24838AC1B05192200125E05 /* AppDelegate.m */,
 				C24838BD1B051B4200125E05 /* main.m */,
