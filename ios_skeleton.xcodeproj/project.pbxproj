@@ -19,7 +19,7 @@
 
 /* Begin PBXFileReference section */
 		1782E08031EEF7D38E05B3DA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		46665A0E1B04EF5E00570495 /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46665A0E1B04EF5E00570495 /* Skeleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skeleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46665A411B04F9DA00570495 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		8885578140C3B0F2B0D1A410 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C24838AB1B05192200125E05 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		46665A0F1B04EF5E00570495 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				46665A0E1B04EF5E00570495 /* Sample.app */,
+				46665A0E1B04EF5E00570495 /* Skeleton.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,7 +142,7 @@
 			);
 			name = Sample;
 			productName = Details;
-			productReference = 46665A0E1B04EF5E00570495 /* Sample.app */;
+			productReference = 46665A0E1B04EF5E00570495 /* Skeleton.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -330,7 +330,7 @@
 				GCC_PREFIX_HEADER = src/support/Prefix.pch;
 				INFOPLIST_FILE = src/support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = Sample;
+				PRODUCT_NAME = Skeleton;
 			};
 			name = Debug;
 		};
@@ -342,7 +342,7 @@
 				GCC_PREFIX_HEADER = src/support/Prefix.pch;
 				INFOPLIST_FILE = src/support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = Sample;
+				PRODUCT_NAME = Skeleton;
 			};
 			name = Release;
 		};
