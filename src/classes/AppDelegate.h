@@ -1,16 +1,16 @@
-// Hive Sample iOS
+// Hive iOS Skeleton
 // Copyright (C) 2008-2015 Hive Solutions, Lda.
 //
-// This file is part of Hive Sample iOS.
+// This file is part of Hive iOS Skeleton.
 //
-// Hive Sample iOS is confidential and property of Hive Solutions, Lda.,
+// Hive iOS Skeleton is confidential and property of Hive Solutions, Lda.,
 // its usage or modification is limited to personnel authorized
 // by the Hive Solutions, Lda. administration.
 //
-// Hive Sample iOS should not be distributed under any circumstances,
+// Hive iOS Skeleton should not be distributed under any circumstances,
 // violation of this may imply legal action.
 
-// __author__    = Tiago Silva <tsilva@hive.pt>
+// __author__    = João Magalhães <joamag@hive.pt> & Tiago Silva <tsilva@hive.pt>
 // __version__   = 1.0.0
 // __revision__  = $LastChangedRevision$
 // __date__      = $LastChangedDate$
