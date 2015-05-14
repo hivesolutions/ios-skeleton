@@ -1,0 +1,10 @@
+*.xccheckout
+
+Podfile.lock
+
+.DS_Store
+
+/Pods
+/ios_skeleton.xcodeproj/xcuserdata
+/ios_skeleton.xcodeproj/project.xcworkspace/xcuserdata
+/ios_skeleton.xcworkspace/xcuserdata
