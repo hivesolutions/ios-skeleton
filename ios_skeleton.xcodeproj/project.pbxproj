@@ -7,19 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46665A4E1B04F9DA00570495 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 46665A411B04F9DA00570495 /* Podfile */; };
 		7A7598BC1C17C409BEEC4110 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8885578140C3B0F2B0D1A410 /* libPods.a */; };
 		C24838AD1B05192200125E05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C24838AC1B05192200125E05 /* AppDelegate.m */; };
 		C24838B51B05195D00125E05 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C24838B01B05195D00125E05 /* LaunchScreen.xib */; };
 		C24838B71B05195D00125E05 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C24838B31B05195D00125E05 /* ViewController.xib */; };
-		C24838BC1B051A1800125E05 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C24838BA1B051A1800125E05 /* Info.plist */; };
 		C24838C01B051B4200125E05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C24838BD1B051B4200125E05 /* main.m */; };
 		C24838C11B051B4200125E05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C24838BF1B051B4200125E05 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1782E08031EEF7D38E05B3DA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		46665A0E1B04EF5E00570495 /* Skeleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skeleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46665A0E1B04EF5E00570495 /* skeleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skeleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46665A411B04F9DA00570495 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		8885578140C3B0F2B0D1A410 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C24838AB1B05192200125E05 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,7 +58,7 @@
 		46665A0F1B04EF5E00570495 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				46665A0E1B04EF5E00570495 /* Skeleton.app */,
+				46665A0E1B04EF5E00570495 /* skeleton.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,9 +124,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		46665A0D1B04EF5E00570495 /* Sample */ = {
+		46665A0D1B04EF5E00570495 /* skeleton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46665A311B04EF5E00570495 /* Build configuration list for PBXNativeTarget "Sample" */;
+			buildConfigurationList = 46665A311B04EF5E00570495 /* Build configuration list for PBXNativeTarget "skeleton" */;
 			buildPhases = (
 				523C0EE2BF865B234B3EE896 /* Check Pods Manifest.lock */,
 				46665A0A1B04EF5E00570495 /* Sources */,
@@ -140,9 +138,9 @@
 			);
 			dependencies = (
 			);
-			name = Sample;
+			name = skeleton;
 			productName = Details;
-			productReference = 46665A0E1B04EF5E00570495 /* Skeleton.app */;
+			productReference = 46665A0E1B04EF5E00570495 /* skeleton.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -172,7 +170,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				46665A0D1B04EF5E00570495 /* Sample */,
+				46665A0D1B04EF5E00570495 /* skeleton */,
 			);
 		};
 /* End PBXProject section */
@@ -182,10 +180,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C24838BC1B051A1800125E05 /* Info.plist in Resources */,
 				C24838B51B05195D00125E05 /* LaunchScreen.xib in Resources */,
 				C24838B71B05195D00125E05 /* ViewController.xib in Resources */,
-				46665A4E1B04F9DA00570495 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +326,7 @@
 				GCC_PREFIX_HEADER = src/support/Prefix.pch;
 				INFOPLIST_FILE = src/support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = Skeleton;
+				PRODUCT_NAME = skeleton;
 			};
 			name = Debug;
 		};
@@ -342,7 +338,7 @@
 				GCC_PREFIX_HEADER = src/support/Prefix.pch;
 				INFOPLIST_FILE = src/support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = Skeleton;
+				PRODUCT_NAME = skeleton;
 			};
 			name = Release;
 		};
@@ -358,7 +354,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46665A311B04EF5E00570495 /* Build configuration list for PBXNativeTarget "Sample" */ = {
+		46665A311B04EF5E00570495 /* Build configuration list for PBXNativeTarget "skeleton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				46665A321B04EF5E00570495 /* Debug */,
