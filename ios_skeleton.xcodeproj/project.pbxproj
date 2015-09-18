@@ -24,8 +24,8 @@
 		C24838AC1B05192200125E05 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C24838B01B05195D00125E05 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		C24838B31B05195D00125E05 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		C24838BA1B051A1800125E05 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C24838BB1B051A1800125E05 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		C24838BA1B051A1800125E05 /* info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
+		C24838BB1B051A1800125E05 /* prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
 		C24838BD1B051B4200125E05 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C24838BE1B051B4200125E05 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C24838BF1B051B4200125E05 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -109,8 +109,8 @@
 		C24838B91B051A1800125E05 /* support */ = {
 			isa = PBXGroup;
 			children = (
-				C24838BA1B051A1800125E05 /* Info.plist */,
-				C24838BB1B051A1800125E05 /* Prefix.pch */,
+				C24838BA1B051A1800125E05 /* info.plist */,
+				C24838BB1B051A1800125E05 /* prefix.pch */,
 			);
 			path = support;
 			sourceTree = "<group>";
@@ -151,7 +151,7 @@
 		46665A061B04EF5E00570495 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Details;
 				TargetAttributes = {
 					46665A0D1B04EF5E00570495 = {
@@ -257,6 +257,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -325,9 +326,10 @@
 			baseConfigurationReference = D30A3D41E1D24B9F3A589F1E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = src/support/Prefix.pch;
-				INFOPLIST_FILE = src/support/Info.plist;
+				GCC_PREFIX_HEADER = src/support/prefix.pch;
+				INFOPLIST_FILE = src/support/info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pt.hive.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = skeleton;
 			};
 			name = Debug;
@@ -337,9 +339,10 @@
 			baseConfigurationReference = 1782E08031EEF7D38E05B3DA /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = src/support/Prefix.pch;
-				INFOPLIST_FILE = src/support/Info.plist;
+				GCC_PREFIX_HEADER = src/support/prefix.pch;
+				INFOPLIST_FILE = src/support/info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pt.hive.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = skeleton;
 			};
 			name = Release;
