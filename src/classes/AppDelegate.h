@@ -1,5 +1,5 @@
 // Hive iOS Skeleton
-// Copyright (C) 2008-2018 Hive Solutions, Lda.
+// Copyright (C) 2008-2019 Hive Solutions, Lda.
 //
 // This file is part of Hive iOS Skeleton.
 //
@@ -14,7 +14,7 @@
 // __version__   = 1.0.0
 // __revision__  = $LastChangedRevision$
 // __date__      = $LastChangedDate$
-// __copyright__ = Copyright (c) 2008-2018 Hive Solutions, Lda.
+// __copyright__ = Copyright (c) 2008-2019 Hive Solutions, Lda.
 
 #import "Dependencies.h"
 
